@@ -1,3 +1,6 @@
-# OS Schools research template
+# OS Schools demo research
 
-Update this README with instructions for running your code!
+To run the code, run:
+
+    R -e 'install.packages("renv"); renv::restore()'
+    Rscript analysis/01_count_rows.R 
